@@ -664,10 +664,13 @@ div.holder:nth-child(3) div {
 }
 
 .case-study-title {
+    margin-bottom: 144px;
+}
+
+.case-study-title h1 {
     font-family: lilgrotesk-bold, Sans-Serif;
     font-size: 128px;
     line-height: 1.2;
-    margin-bottom: 144px;
 }
 
 .two-col {
@@ -769,6 +772,7 @@ ul {
     list-style: none;
     list-style-position: outside;
     margin-bottom: 56px;
+    padding-inline-start: 5px;
 }
 
 ul li {
