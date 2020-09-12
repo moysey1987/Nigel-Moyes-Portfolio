@@ -15,7 +15,6 @@
     box-sizing: border-box;
     --primaryColor: #264030;
     --secondaryColor: #fafaf5;
-    font-display: block;
 }
 
 body {
@@ -784,7 +783,7 @@ ul li:before {
     display: inline-block;
     height: 14px;
     width: 14px;
-    background-image: url("star-grn.svg");
+    background-image: url("/images/star-grn.svg");
     background-size: contain;
     background-repeat: no-repeat;
     margin-right: 6px;
@@ -835,11 +834,19 @@ blockquote {
     max-width: 498px;
 }
 
+.mosaic-left img {
+    max-width: 100%;
+}
+
 .mosaic-right {
     position: absolute;
     top: 104px;
     right: 32px;
     max-width: 721px;
+}
+
+.mosaic-right img {
+    max-width: 100%;
 }
 
 .small-img,
