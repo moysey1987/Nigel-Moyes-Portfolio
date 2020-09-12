@@ -446,6 +446,10 @@ div.holder div {
     transform-origin: 50% 0;
 }
 
+div.holder div img {
+    max-width: 100%;
+}
+
 div.holder:nth-child(2) div {
     transform: rotateX(-130deg);
 }
