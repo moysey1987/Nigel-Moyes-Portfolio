@@ -965,8 +965,10 @@ iframe {
         margin-bottom: 8px;
     }
     .case-study-title {
-        font-size: 120px;
         margin-bottom: 120px;
+    }
+    .case-study-title h1 {
+        font-size: 120px;
     }
 }
 
@@ -1065,8 +1067,10 @@ iframe {
         display: none;
     }
     .case-study-title {
-        font-size: 96px;
         margin-bottom: 80px;
+    }
+    .case-study-title h1 {
+        font-size: 96px;
     }
     .home {
         margin-bottom: 64px;
@@ -1323,8 +1327,10 @@ iframe {
         padding: 32px 32px;
     }
     .case-study-title {
-        font-size: 80px;
         margin-bottom: 48px;
+    }
+    .case-study-title h1 {
+        font-size: 80px;
     }
     .roles {
         padding: 0px 32px;
@@ -1465,7 +1471,7 @@ iframe {
     .case-study-client {
         font-size: 24px;
     }
-    .case-study-title {
+    .case-study-title h1 {
         font-size: 56px;
     }
     .body-content h2 {
