@@ -2,14 +2,12 @@
     font-family: 'lilgrotesk-regular';
     src: url('lilgrotesk-regular.woff');
     font-weight: normal;
-    font-display: block;
 }
 
 @font-face {
     font-family: 'lilgrotesk-bold';
     src: url('lilgrotesk-bold.woff');
     font-weight: bold;
-    font-display: block;
 }
 
 * {
