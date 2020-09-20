@@ -36,17 +36,16 @@ body {
     pointer-events: none;
 }
 
-.cursor {
+div.cursor {
     pointer-events: none;
     position: fixed;
-    padding: 0.5rem;
+    width: 24px;
+    height: 24px;
     background-color: var(--primaryColor);
-    border: 1px solid var(--primaryColor);
     border-radius: 50%;
     mix-blend-mode: difference;
     z-index: 20;
     transform: translate(-50%, -50%);
-    transition: padding 1s ease-in;
 }
 
 a {
@@ -58,8 +57,8 @@ a:hover {
     cursor: none;
 }
 
-a:hover~.cursor {
-    padding: 0.5rem;
+a:hover div.cursor {
+    transform: scale(0.5)
 }
 
 .container {
