@@ -1169,9 +1169,9 @@ iframe {
 }
 
 @media (max-width: 900px) {
-    /* #canvas {
+    #canvas {
         display: none;
-    } */
+    }
     .logo {
         display: none;
     }
