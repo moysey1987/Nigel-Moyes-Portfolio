@@ -41,12 +41,11 @@ body {
     position: fixed;
     padding: 0.5rem;
     background-color: var(--primaryColor);
-    border: 1px solid var(--primaryColor);
     border-radius: 50%;
     mix-blend-mode: difference;
     z-index: 20;
     transform: translate(-50%, -50%);
-    transition: padding 1s ease-in;
+    transition: scale(4);
 }
 
 a {
@@ -59,7 +58,7 @@ a:hover {
 }
 
 a:hover~.cursor {
-    padding: 0.5rem;
+    transform: scale(4)
 }
 
 .container {
