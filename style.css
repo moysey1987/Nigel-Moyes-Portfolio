@@ -45,7 +45,6 @@ body {
     mix-blend-mode: difference;
     z-index: 20;
     transform: translate(-50%, -50%);
-    transition: scale(4);
 }
 
 a {
@@ -55,10 +54,6 @@ a {
 
 a:hover {
     cursor: none;
-}
-
-a:hover~.cursor {
-    transform: scale(4)
 }
 
 .container {
@@ -491,7 +486,7 @@ div.holder:nth-child(3) div {
     padding: 24px 120px;
     background-color: var(--secondaryColor);
     color: var(--primaryColor);
-    border: 2px solid var(--primaryColor);
+    border: 2px solid var(--secondaryColor);
     font-family: lilgrotesk-regular;
     font-size: 29px;
     text-transform: uppercase;
