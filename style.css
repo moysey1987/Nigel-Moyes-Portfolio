@@ -24,7 +24,6 @@ body {
     font-size: 18px;
     line-height: 1.5;
     background-color: var(--secondaryColor);
-    cursor: none;
 }
 
 #canvas {
@@ -34,24 +33,9 @@ body {
     pointer-events: none;
 }
 
-.cursor {
-    pointer-events: none;
-    position: fixed;
-    padding: 0.5rem;
-    background-color: var(--primaryColor);
-    border-radius: 50%;
-    mix-blend-mode: difference;
-    transform: translate(-50%, -50%);
-    z-index: 20;
-}
-
 a {
     text-decoration: none;
     color: var(--primaryColor);
-}
-
-a:hover {
-    cursor: none;
 }
 
 .container {
@@ -260,9 +244,6 @@ header nav a:hover {
 .bio-text a.reverse-link {
     color: var(--secondaryColor);
     font-family: lilgrotesk-bold;
-}
-
-.bio-text a.reverse-link:hover {
     border-bottom: 2px solid var(--secondaryColor);
 }
 
