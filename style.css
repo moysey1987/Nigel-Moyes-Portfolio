@@ -41,8 +41,8 @@ body {
     background-color: var(--primaryColor);
     border-radius: 50%;
     mix-blend-mode: difference;
-    z-index: 20;
     transform: translate(-50%, -50%);
+    z-index: 20;
 }
 
 a {
