@@ -484,9 +484,8 @@ div.holder:nth-child(3) div {
 
 .button {
     padding: 24px 120px;
-    background-color: var(--secondaryColor);
-    color: var(--primaryColor);
-    border: 2px solid var(--secondaryColor);
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);
     font-family: lilgrotesk-regular;
     font-size: 29px;
     text-transform: uppercase;
@@ -494,8 +493,9 @@ div.holder:nth-child(3) div {
 }
 
 .button:hover {
-    background-color: var(--primaryColor);
-    color: var(--secondaryColor);
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+    border: 2px solid var(--primaryColor);
 }
 
 .projects {
