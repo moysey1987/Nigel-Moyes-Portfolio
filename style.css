@@ -39,7 +39,7 @@ body {
 div.cursor {
     pointer-events: none;
     position: fixed;
-    padding: 0.7rem;
+    padding: 0.6rem;
     background-color: var(--primaryColor);
     border-radius: 50%;
     mix-blend-mode: difference;
