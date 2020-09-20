@@ -24,6 +24,7 @@ body {
     font-size: 18px;
     line-height: 1.5;
     background-color: var(--secondaryColor);
+    cursor: none;
 }
 
 #canvas {
@@ -33,9 +34,33 @@ body {
     pointer-events: none;
 }
 
+.cursor {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: var(--primaryColor);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 20;
+    transition: all 0.3s ease;
+    transition-property: transform, border, background-color;
+    mix-blend-mode: difference;
+}
+
+.link-grow {
+    background-color: var(--secondaryColor);
+    border: 1px solid var(--primaryColor);
+    transform: scale(2);
+}
+
 a {
     text-decoration: none;
     color: var(--primaryColor);
+}
+
+a:hover {
+    cursor: none;
 }
 
 .container {
