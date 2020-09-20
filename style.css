@@ -15,11 +15,13 @@
     box-sizing: border-box;
     --primaryColor: #264030;
     --secondaryColor: #fafaf5;
+    font-display: block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 body {
     font-family: 'lilgrotesk-regular', Sans-Serif;
-    ;
     color: var(--primaryColor);
     font-size: 18px;
     line-height: 1.5;
