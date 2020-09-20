@@ -489,6 +489,7 @@ div.holder:nth-child(3) div {
 
 .button {
     padding: 24px 120px;
+    background-color: var(--secondaryColor);
     color: var(--primaryColor);
     border: 2px solid var(--primaryColor);
     font-family: lilgrotesk-regular;
