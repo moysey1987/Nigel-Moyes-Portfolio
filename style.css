@@ -39,7 +39,8 @@ body {
 div.cursor {
     pointer-events: none;
     position: fixed;
-    padding: 0.7rem;
+    width: 24px;
+    height: 24px;
     background-color: var(--primaryColor);
     border-radius: 50%;
     mix-blend-mode: difference;
@@ -54,6 +55,10 @@ a {
 
 a:hover {
     cursor: none;
+}
+
+a:hover div.cursor {
+    transform: scale(0.5)
 }
 
 .container {
