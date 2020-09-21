@@ -40,7 +40,7 @@ body {
     height: 16px;
     border-radius: 50%;
     background-color: var(--primaryColor);
-    position: absolute;
+    position: fixed;
     transform: translate(-50%, -50%);
     transform-origin: 100% 100%;
     pointer-events: none;
