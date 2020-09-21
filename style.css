@@ -574,18 +574,33 @@ div.holder:nth-child(3) div {
 }
 
 .contact {
-    padding: 128px 0px 256px 0px;
+    padding: 128px 0px 176px 0px;
     text-align: center;
 }
 
 .contact h2 {
     font-family: lilgrotesk-bold;
     font-size: 231px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
+}
+
+.contact p {
+    max-width: 876px;
+    margin: 0 auto 64px auto;
+    padding: 0 32px;
+    font-size: 40px;
+    line-height: 1.6;
+    font-family: lilgrotesk-bold;
+}
+
+span.inverted-text {
+    -webkit-text-stroke: 2px var(--primaryColor);
+    -webkit-text-fill-color: var(--secondaryColor);
 }
 
 .email {
-    padding: 0px 64px;
+    max-width: 920px;
+    margin: 0 auto;
 }
 
 .email a {
@@ -817,7 +832,8 @@ ul li:before {
     background-image: url("/images/star-grn.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    margin-right: 6px;
+    background-position: 0 center;
+    margin-right: 8px;
 }
 
 figure {
@@ -1185,10 +1201,13 @@ iframe {
         font-size: 20px;
     }
     .contact {
-        padding: 64px 0px 160px;
+        padding: 64px 0px 100px;
     }
     .contact h2 {
         font-size: 128px;
+    }
+    .contact p {
+        font-size: 32px;
     }
     .email a {
         font-size: 64px;
@@ -1324,6 +1343,13 @@ iframe {
     .contact h2 {
         font-size: 72px;
     }
+    .contact p {
+        font-size: 24px;
+        margin-bottom: 32px;
+    }
+    span.inverted-text {
+        -webkit-text-stroke: 1px var(--primaryColor);
+    }
     .email {
         padding: 0px 24px;
     }
@@ -1441,7 +1467,6 @@ iframe {
         margin-bottom: 32px;
     }
     .email a {
-        font-size: 30px;
         -webkit-text-stroke: 1px var(--primaryColor);
     }
 }
@@ -1575,6 +1600,9 @@ iframe {
     .button {
         padding: 24px 40px;
         font-size: 18px;
+    }
+    .contact p {
+        padding: 0 20px;
     }
     .email {
         padding: 0px 4px;
