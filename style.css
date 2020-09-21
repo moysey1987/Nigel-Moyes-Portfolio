@@ -1607,13 +1607,16 @@ iframe {
     .email {
         padding: 0px 4px;
     }
-    .email a {
-        font-size: 24px;
-    }
     .closing-marquee {
         padding: 12px 0px;
     }
     .closing-marquee p {
         font-size: 20px;
+    }
+}
+
+@media (hover: none) and (pointer: coarse) {
+    .cursor {
+        display: none;
     }
 }
