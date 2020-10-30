@@ -934,6 +934,7 @@ blockquote {
     max-width: 1312px;
     margin: auto;
     padding: 64px 32px 96px 32px;
+    border: 2px solid var(--primaryColor);
 }
 
 .fw-image-container img {
