@@ -28,11 +28,13 @@ body {
     overflow-x: hidden;
 }
 
-#canvas {
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    pointer-events: none;
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: var(--secondaryColor);
+}
+
+ ::-webkit-scrollbar-thumb {
+    background-color: #516659;
 }
 
 .cursor {
