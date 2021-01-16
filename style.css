@@ -762,6 +762,15 @@ span.inverted-text {
     padding: 0px 64px;
 }
 
+.body-content p.nda-disclaimer {
+    font-size: 16px;
+}
+
+.body-content p.nda-disclaimer a {
+    padding-bottom: 2px;
+    border-bottom: 1px solid var(--primaryColor);
+}
+
 .body-content h2 {
     font-family: lilgrotesk-bold, Sans-Serif;
     font-size: 37px;
@@ -941,6 +950,14 @@ blockquote {
 .fw-image-container img {
     margin-bottom: 48px;
     border: 2px solid var(--primaryColor);
+}
+
+div.iframe-holder {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+    margin-bottom: 16px;
 }
 
 iframe {
