@@ -279,7 +279,7 @@ header nav a:hover {
 .bio-image {
     width: 50%;
     padding: 32px 32px;
-    background-image: url("/images/nige-lg-crm.webp");
+    background-image: url("/images/nige-large.webp");
     background-size: cover;
     background-position: center;
     position: relative;
